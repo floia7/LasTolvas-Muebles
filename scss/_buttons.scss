@@ -1,0 +1,27 @@
+@use"./variables" ;
+
+
+.bg-secondary {
+  background-color: variables.$color-secundario ;
+}
+
+.btn-miColor {
+  background-color: variables.$color-principal ;
+  color: variables.$color-secundario ;
+  border: none;
+}
+
+&:hover {
+  background-color: variables.$color-principal ;
+}
+
+.btn-catalogo {
+  background-color: variables.$color-secundario ;
+  color: variables.$color-principal ;
+  border: none;
+}
+
+&:hover {
+  background-color: variables.$color-secundario ;
+  color: variables.$color-principal ;
+}

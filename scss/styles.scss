@@ -1,5 +1,9 @@
 @use "./variables";
+@use "./buttons";
 
+.custom-navbar {
+  background-color: variables.$color-principal;
+}
 
 .btn-miColor {
   background-color: variables.$color-principal; 
@@ -7,11 +11,9 @@
   border: none; 
   cursor: pointer; 
   
-  
   &:hover {
     background-color: variables.$color-principal; 
     color: variables.$color-secundario;
-    transform: scale(1.1)
   }
 }
 
@@ -21,13 +23,11 @@
   border: none;
   cursor: pointer;
 
-
+ 
   &:hover {
-    background-color: variables.$color-secundario; 
-    color: variables.$color-principal;
-    transform: scale(1.1)
+    background-color: variables.$color-principal; 
+    color: variables.$color-secundario;  
   }
 }
-
 
 

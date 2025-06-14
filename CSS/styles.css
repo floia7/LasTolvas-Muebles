@@ -1,27 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-.bg-secondary {
-    background-color: #32351a !important 
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 .btn-miColor {
   background-color: #32351a;
-  color: white;
+  color: #f2f2f2;
   border: none;
+  cursor: pointer;
 }
-
 .btn-miColor:hover {
   background-color: #32351a;
+  color: #f2f2f2;
+  transform: scale(1.1);
 }
 
 .btn-catalogo {
   background-color: #f2f2f2;
   color: #32351a;
   border: none;
+  cursor: pointer;
 }
-
 .btn-catalogo:hover {
   background-color: #f2f2f2;
   color: #32351a;
+  transform: scale(1.1);
 }
 
+.custom-navbar {
+  background-color: #32351a;
+}
+
+.btn-miColor {
+  background-color: #32351a;
+  color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+}
+.btn-miColor:hover {
+  background-color: #32351a;
+  color: #f2f2f2;
+}
+
+.btn-catalogo {
+  background-color: #f2f2f2;
+  color: #32351a;
+  border: none;
+  cursor: pointer;
+}
+.btn-catalogo:hover {
+  background-color: #32351a;
+  color: #f2f2f2;
+}
+
+/*# sourceMappingURL=styles.css.map */
